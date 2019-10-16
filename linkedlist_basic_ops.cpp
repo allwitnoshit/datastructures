@@ -7,6 +7,7 @@ class node
 	node* next ;
 };
 node* head ;
+//only inserts in the end and doesn't works on a empty list.
 void insert(int x)
 {
 	node* temp1 ;
@@ -66,13 +67,10 @@ void print()
 } 	
 int main()
 {
-	head = new node() ;
-	head->data = 2 ;
-	head->next = NULL ;
-	insert(3) ;
-	insert(4) ;
-	insert(10) ;
-	print() ;
+	head = NULL ;
+	specifyinsert(3) ;
+	specifyinsert(4) ;
+	specifyinsert(10) ;
 	specifyinsert(7,1);
 	specifyinsert(6,2) ;
 	print() ;
