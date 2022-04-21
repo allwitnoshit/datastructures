@@ -1,2 +1,3 @@
-# datastructures
-implementation and operations on common datastructures 
+# DSA
+Striver's SDE Sheet 
+
